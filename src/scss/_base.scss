@@ -1,0 +1,44 @@
+/* This stylesheet is for any custom classes you create in your child theme. See below for examples */
+body{
+    background-image: url(images/background-parallax.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+
+/**
+****
+*****
+****** BACKGROUND COLOURS ******
+*****
+****
+***
+*/
+.primaryBg {
+    background: $primary;
+}
+
+.secondaryBg {
+    background: $secondary;
+}
+
+.tertiaryBg {
+    background: $tertiary;
+}
+
+.lightGreyBg {
+    background: $lightGrey;
+}
+
+.darkGreyBg {
+    background: $darkGrey;
+}
+/**
+****
+*****
+****** END BACKGROUND COLORS ******
+*****
+****
+***
+*/
+

@@ -1,0 +1,46 @@
+/* This stylesheet is used only for child theme specific variables, mixins and parial imports */
+
+/************************************************
+    FOR A LIST OF ALL AVAILABLE HELPER CLASSES YOU CAN USE IN YOUR CHILD THEME PLEASE REFER TO THE "._base.scss" FILE IN THE NETSTRAP PARENT THEME. DO NOT RECREATE THESE AVAILABLE CLASSES IN THE CHILD THEME AS IT IS UNNECESSARY. IN THAT FILE THERE IS A LEGEND AT THE TOP FOR QUICK NAVIGATION OF HELPER CLASSES
+************************************************/
+
+
+/* Site Colours */
+$primary: #008548;
+$secondary: #62ba46;
+$tertiary: #4d4d4f;
+$lightGrey: #c5c7c9;
+$darkGrey: #808184;
+
+/* Site Font Styles */
+$baseFont: 'Source Sans Pro', sans-serif;
+$headingFont: 'Montserrat', sans-serif;
+
+
+/* RESPONSIVE STATES */
+$screen-lg-min: 1199px;
+$screen-lg-max: ($screen-lg-min - 1);
+$screen-md-min: 992px;
+$screen-md-max: ($screen-md-min - 1);
+$screen-sm-min: 768px;
+$screen-sm-max: ($screen-sm-min - 1);
+$screen-xsm-min: 576px;
+$screen-xsm-max: ($screen-xsm-min - 1);
+
+
+@import 'base';
+@import 'typography';
+@import 'components/accordions';
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/contact-forms';
+@import 'components/slider';
+@import 'components/testimonials-slider';
+@import 'layout/header';
+@import 'layout/page-mast';
+@import 'layout/front-page';
+@import 'layout/sub-pages';
+@import 'layout/blog';
+@import 'layout/footer';
+
+@import 'layout/responsive';

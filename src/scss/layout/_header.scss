@@ -1,0 +1,97 @@
+/* This stylesheet should contain only styles for the header elements including the navigation menus */
+
+
+.sub-menu{
+	&:before{
+		content:'';
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 7.5px 10px 7.5px;
+		border-color: transparent transparent #61ba46 transparent;
+	    position: absolute;
+	    top: -10px;
+	    left: 10px;
+	}
+}
+
+
+.menu-language-menu-container,.menu-language-menu-spanish-container{
+	ul{
+		list-style: none;
+		padding: 0px;
+		margin: 0px; 
+
+		li{
+			justify-content: flex-end;
+	    	display: flex;
+		}
+		a{
+			color: #ffffff;
+		}
+	}
+}
+
+.menu-language-menu-mobile-container,
+.menu-language-menu-mobile-spanish-container{
+	ul{
+	    list-style: none;
+	    padding: 0px;
+	    margin: 0px;
+	    display: flex;
+	    justify-content: flex-end;
+
+		li{
+			justify-content: flex-end;
+	    	display: flex;
+
+		}
+		a{
+			color: #ffffff;
+		}
+	}
+
+	#menu-language-menu-mobile,
+	#menu-language-menu-mobile-spanish{
+		li{
+			padding-left:10px;
+			position:relative;
+			margin-right: 10px;
+			a{
+				color: #4D4D4F;
+				display: flex;
+				img{
+					margin-right: 10px;
+				}
+			}
+			&#menu-item-351,
+			&#menu-item-430{
+				a{
+					color: #008548;
+				}
+			}
+			&:after{
+				content: '';
+				height: 20px;
+				width: 1px;
+				background:  #4D4D4F;
+				position:absolute;
+				right: -10px;
+				top: 7px;
+			}
+			&:last-child{
+				&:after{
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.elementor-element-58ec371{
+	.elementor-nav-menu--dropdown.elementor-nav-menu__container{
+	    position: absolute;
+	    z-index: 100;
+	    width: 100%;
+	}
+}

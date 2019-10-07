@@ -1,0 +1,144 @@
+/* This stylesheet is for the custom typography styles for the child theme */
+
+body,html{
+    font-size: 10px;
+    font-family: lato;
+    color: $tertiary;
+}
+
+* {
+    /* Set the font size for all elements. Change based on your design files style guide */
+
+}
+
+a{
+    color: $primary;
+    &:hover{
+        color:$secondary;
+    }
+}
+.elementor-widget-heading{
+    color: $primary;
+}
+.elementor-widget-heading .elementor-heading-title{
+    line-height: 1.25;
+    color: inherit;
+}
+
+h1,
+.elementor-element .h1,
+.elementor-widget-heading h1.elementor-heading-title {
+    font-size: 3.2rem;
+    font-family: $headingFont;
+}
+
+h2,
+.elementor-element .h2,
+.elementor-widget-heading h2.elementor-heading-title{
+    font-size: 3.2rem;
+    font-family: $headingFont;
+}
+
+h3,
+.elementor-element .h3,
+.elementor-widget-heading h3.elementor-heading-title {
+    font-size: 3.0rem;
+    font-family: $headingFont;
+}
+
+h4,
+.elementor-element .h4,
+.elementor-widget-heading h4.elementor-heading-title {
+    font-size: 2.8rem;
+    font-family: $headingFont;
+}
+
+
+h5,
+.elementor-element .h5,
+.elementor-widget-heading h5.elementor-heading-title {
+    font-size: 2.1rem;
+    font-style: italic;
+    font-family: $headingFont;
+}
+
+h6,
+.elementor-element .h6,
+.elementor-widget-heading h6.elementor-heading-titl {
+    font-size: 2.0rem;
+    font-family: $headingFont;
+}
+
+.elementor-element{
+    font-family: $baseFont;
+    font-size: 1.8rem;
+    p {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    ol, ul{
+        margin-bottom: .9rem;
+    }
+}
+
+
+
+.elementor-text-editor{
+    p:last-child{
+        margin-bottom: 0px;
+    }
+}
+
+
+
+a::not([class="btn"]), a::not([class="btn"]):visited {
+    color: $secondary;
+}
+
+// Sets all text colours on a container with primary background colour
+.primaryBg {
+    * {
+        color: #FFF;
+    }
+}
+
+// Sets all text colours on a container with secondary background colour
+.secondaryBg {
+    * {
+        color: #000;
+    }
+}
+
+.whiteBg * {
+    color: #000;
+}
+
+
+/**
+****
+*****
+****** TEXT COLORS ******
+*****
+****
+***
+*/
+.primaryText, .primaryText * {
+    color: $primary;
+}
+
+.secondaryText, .secondaryText * {
+    color: $secondary;
+}
+
+.tertiaryText, .tertiaryText * {
+    color: $tertiary;
+}
+/**
+****
+*****
+****** END TEXT COLORS ******
+*****
+****
+***
+*/

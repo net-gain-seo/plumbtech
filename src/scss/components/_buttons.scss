@@ -1,0 +1,42 @@
+
+.btn{
+    border:1px solid $secondary;
+    color: #FFFFFF;
+    background: $secondary;
+    border-radius: 0px;
+    font-size:2rem;
+    padding: 5px 20px;
+
+    &:hover{
+        background:#808184;
+        border:1px solid #808184;
+        color: #ffffff;
+    }
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    border:1px solid #ffffff;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+
+
+.elementor-button{
+    border:1px solid $secondary;
+    color: #FFFFFF;
+    background-color: $secondary;
+    border-radius: 0px;
+    font-size:2rem;
+    padding: 5px 20px;
+
+    &.elementor-size-sm{
+        border-radius:0px;
+    }
+
+    &:hover{
+        background:#808184;
+        border:1px solid #808184;
+        color: #ffffff;
+    }
+}
